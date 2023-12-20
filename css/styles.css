@@ -1,0 +1,140 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(39, 35, 35);
+}
+
+
+h1{
+    font-size: 42px;
+    color:rgb(238, 245, 238) ;
+}
+
+#buttons-container button{
+    border: none;
+    border-radius: 10%;
+    padding:8px 10px;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(238, 245, 238);
+    background-color: rgb(85, 77, 77);
+
+}
+
+#container{
+    display: flex;
+    width: 300px;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.box{
+    height: 100px;
+    border: 5px solid rgb(238, 245, 238);
+    box-sizing: border-box;
+    flex: 1 1 33%;
+}
+
+
+#block-1, #block-2, #block-3{
+    border-top: none;
+    
+}
+
+
+#block-1, #block-4, #block-7{
+    border-left: none;
+
+}
+#block-7, #block-8, #block-9{
+    border-bottom: none;
+
+}
+#block-3, #block-6, #block-9{
+    border-right: none;
+
+}
+
+
+
+
+.x{
+    font-size: 65px;
+    color:aquamarine;
+    display: inline-block;
+    line-height: 100px;
+    margin-right: 5px;
+}
+
+
+.o{
+    width: 40px;
+    height: 42px;
+    border:5px solid plum;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top:17px;
+    margin-left: 5px;
+}
+
+
+
+
+#scoreboard-container{
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 25px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scoreboard{
+    margin:0 20px;
+    
+}
+
+#scoreboard-container h2, span{
+    color: rgb(238, 245, 238);
+}
+
+#x-scoreboard{
+    color: aquamarine;
+    margin-right: 5px;
+}
+
+#o-scoreboard{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 2px solid plum;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 15px;
+}
+
+.hide{
+    display: none;
+}
+
+#message p{
+ 
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 150px;
+    width: 500px;
+    font-size: 50px;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
